@@ -1,0 +1,60 @@
+[debug] [2022-11-04T21:31:49.266Z] ----------------------------------------------------------------------
+[debug] [2022-11-04T21:31:49.285Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\srivastava\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-04T21:31:49.286Z] CLI Version:   11.16.0
+[debug] [2022-11-04T21:31:49.286Z] Platform:      win32
+[debug] [2022-11-04T21:31:49.287Z] Node Version:  v18.12.1
+[debug] [2022-11-04T21:31:49.414Z] Time:          Sat Nov 05 2022 03:01:49 GMT+0530 (India Standard Time)
+[debug] [2022-11-04T21:31:49.415Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-04T21:31:49.462Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-04T21:31:49.463Z] > authorizing via signed-in user (miva.ys17@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\srivastava\Downloads\helthhelpzip\health help
+
+[debug] [2022-11-04T21:32:20.847Z] ----------------------------------------------------------------------
+[debug] [2022-11-04T21:32:20.848Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\srivastava\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-04T21:32:20.848Z] CLI Version:   11.16.0
+[debug] [2022-11-04T21:32:20.848Z] Platform:      win32
+[debug] [2022-11-04T21:32:20.849Z] Node Version:  v18.12.1
+[debug] [2022-11-04T21:32:20.849Z] Time:          Sat Nov 05 2022 03:02:20 GMT+0530 (India Standard Time)
+[debug] [2022-11-04T21:32:20.849Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-04T21:32:20.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-04T21:32:20.855Z] > authorizing via signed-in user (miva.ys17@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\srivastava\Downloads\helthhelpzip\health help
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-11-04T21:35:36.392Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-11-04T21:35:36.392Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Healthhelp0","name":"HH0"}
+[debug] [2022-11-04T21:35:38.506Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-11-04T21:35:38.507Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name must be at least 4 characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-11-04T21:35:38.683Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\srivastava\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\srivastava\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
